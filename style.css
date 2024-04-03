@@ -1,0 +1,144 @@
+a{
+    font-size: 18px;
+    color: tomato;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: purple;
+}
+/* #footer{
+    background:rgba(44, 46, 32, 0.956);
+    color: whitesmoke;
+    margin-top: -15px;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.column1{
+    
+	color: #f7ebeb;
+	width: 500px;
+    height:100%;
+	clear:both;
+	position: relative;
+	overflow: hidden;
+	margin-left: 0;
+    padding: 20px;
+}
+
+.column2{
+    color: #f7ebeb;
+	width: 500px;
+    height:100%;
+	clear:both;
+	position: relative;
+	overflow: hidden;
+	margin-left: 0;
+    padding: 20px;
+    float: right;
+    top: 0;
+   
+}
+
+.column3{
+    color: #f7ebeb;
+	width: 500px;
+    height:100%;
+	clear:both;
+	position: relative;
+	overflow: hidden;
+	margin-left: 0;
+    padding: 20px;
+    top: -24px;
+    left: 20px;
+} */
+
+/* #footer {
+    background: black;
+} */
+
+/* #footer .first-child {
+    float: left;
+    text-align: left;
+    width: 33.3%; 
+    
+}
+
+#footer .Second-child {
+    float: left;
+    text-align: center;
+    width: 33.4%;
+    
+    
+ }
+
+ #footer .Third-child {
+    float: right;
+    text-align: right;
+    width: 33.3%; 
+
+} */
+/* 
+#footer > p:last-child {
+    float: right;
+    text-align: right;
+    width: 33.3%; 
+} */
+
+.footer{
+    background-color: rgb(57, 81, 82);
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    color: whitesmoke;
+}
+
+.footer_col h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer_col h3 span{
+    color: whitesmoke;
+}
+
+.footer_col p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_col p:hover{
+    color: black;
+}
+
+.footer_col p span{
+    font-weight: 600;
+}
+
+.footer_col h4{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer_bar{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    border-top: 1px solid var(--text-light);
+}
